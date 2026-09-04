@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o Sabores da Casa.">
+    <title>Sabores da Casa | Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <p>RECEITAS SIMPLES PARA TODOS OS DIAS</p>
+
+        <a href="index.html">
+            <h1>Sabores da Casa</h1>
+        </a>
+
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index - Copia.html">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="bolo-de-chocolate.html">Bolo</a></li>
+                <li><a href="massa-ao-molho.html">Massa</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li>
+                    <a href="contato.html" aria-current="page">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <header>
+            <p>FALE CONOSCO</p>
+
+            <h2>Contato</h2>
+
+            <p>
+                Envie uma sugestão de receita, dúvida ou comentário.
+            </p>
+        </header>
+
+        <section aria-labelledby="formulario-contato">
+
+            <h2 id="formulario-contato">Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nome">
+                        Nome completo:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">
+                        E-mail:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="telefone">
+                        Telefone:
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(11) 99999-9999"
+                        autocomplete="tel"
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="assunto">
+                        Assunto:
+                    </label>
+
+                    <select
+                        id="assunto"
+                        name="assunto"
+                        required
+                    >
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option value="duvida">
+                            Dúvida
+                        </option>
+
+                        <option value="sugestao">
+                            Sugestão
+                        </option>
+
+                        <option value="receita">
+                            Sugestão de receita
+                        </option>
+
+                        <option value="outro">
+                            Outro
+                        </option>
+                    </select>
+                </div>
+
+                <br>
+
+                <fieldset>
+
+                    <legend>Categoria preferida:</legend>
+
+                    <label for="doces">
+                        <input
+                            type="radio"
+                            id="doces"
+                            name="categoria"
+                            value="doces"
+                        >
+                        Doces
+                    </label>
+
+                    <label for="salgados">
+                        <input
+                            type="radio"
+                            id="salgados"
+                            name="categoria"
+                            value="salgados"
+                        >
+                        Salgados
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <div>
+                    <label for="mensagem">
+                        Mensagem:
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="8"
+                        cols="50"
+                        required
+                    ></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="newsletter">
+                        <input
+                            type="checkbox"
+                            id="newsletter"
+                            name="newsletter"
+                            value="sim"
+                        >
+                        Quero receber novas receitas por e-mail.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="reset">
+                    Limpar
+                </button>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Sabores da Casa</h2>
+
+        <p>
+            Receitas simples, práticas e cheias de sabor.
+        </p>
+
+        <address>
+            <a href="mailto:contato@saboresdacasa.com.br">
+                contato@saboresdacasa.com.br
+            </a>
+        </address>
+
+        <p>São Paulo - SP</p>
+
+        <small>
+            &copy; 2027 Sabores da Casa.
+        </small>
+    </footer>
+
+</body>
+
+</html>
